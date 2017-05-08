@@ -1,0 +1,67 @@
+.sl6-image{
+    height: 70%;
+    width: 80%;
+    top: 10%;
+    left: 15%;
+    /*background: red;*/
+    position: relative;
+    z-index: 6;
+}
+.sl6-accImage{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.sl6-left-container{
+    height: 100%;
+    width: 65%;
+    float: left;
+    /*background: blue;*/
+    position: relative;
+}
+.sl6-text-holder{
+    height: 350px;
+    width: 30%;
+    top: 25%;
+    position: relative;
+    /*background: lightblue;*/
+    float: right;
+}
+.sl6-text-box{
+    height: auto;
+    width: 94%;
+    margin: 2px;
+    padding: 0px;
+    /*background: red;*/
+    text-align: center;
+    display: inline-block;
+}
+.center-text{
+    width: 60%;
+    height: 10%;
+    left: 18%;
+    top: 38%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    color: red;
+    position: relative;
+    display: inline-block;
+    animation: zoom-in 1s;
+}
+@keyframes zoom-in{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes zoom-out{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0);
+    }
+}

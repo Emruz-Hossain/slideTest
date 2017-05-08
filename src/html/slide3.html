@@ -1,0 +1,103 @@
+<div class="left-container animate-zoom">
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/ammap.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/maps/js/bangladeshLow.js"></script>
+
+    <!-- amCharts javascript code -->
+    <script type="text/javascript">
+        AmCharts.makeChart("map", {
+            "type": "map",
+            "pathToImages": "http://www.amcharts.com/lib/3/images/",
+            "addClassNames": true,
+            "fontSize": 15,
+            "color": "#FFFFFF",
+            "projection": "mercator",
+            "backgroundAlpha": 1,
+            "backgroundColor": "rgba(71,85,94,1)",
+            "dataProvider": {
+                "map": "bangladeshLow",
+                "getAreasFromMap": true,
+                "images": [
+                    {
+                        "top": 40,
+                        "left": 40,
+                        "width": 80,
+                        "height": 50,
+                        "pixelMapperLogo": true,
+                        "imageURL": "http://pixelmap.amcharts.com/static/img/logo.svg",
+                        "url": "http://www.amcharts.com"
+                    }
+                ],
+                "areas": [
+                    {
+                        "id": "BD-A",
+                        "title": "Barisal",
+                        "color": "rgba(186,125,125,0.93)"
+                    },
+                    {
+                        "id": "BD-D",
+                        "title": "Khulna",
+                        "color": "rgba(83,146,114,1)"
+                    }
+                ]
+            },
+            "balloon": {
+                "horizontalPadding": 15,
+                "borderAlpha": 0,
+                "borderThickness": 1,
+                "verticalPadding": 15
+            },
+            "areasSettings": {
+                "color": "rgba(194,194,183,1)",
+                "outlineColor": "rgba(68,84,94,1)",
+                "rollOverOutlineColor": "rgba(68,84,94,1)",
+                "rollOverBrightness": 20,
+                "selectedBrightness": 20,
+                "selectable": true,
+                "unlistedAreasAlpha": 0,
+                "unlistedAreasOutlineAlpha": 0
+            },
+            "imagesSettings": {
+                "alpha": 1,
+                "color": "rgba(194,194,183,1)",
+                "outlineAlpha": 0,
+                "rollOverOutlineAlpha": 0,
+                "outlineColor": "rgba(68,84,94,1)",
+                "rollOverBrightness": 20,
+                "selectedBrightness": 20,
+                "selectable": true
+            },
+            "linesSettings": {
+                "color": "rgba(194,194,183,1)",
+                "selectable": true,
+                "rollOverBrightness": 20,
+                "selectedBrightness": 20
+            },
+            "zoomControl": {
+                "zoomControlEnabled": false,
+                "homeButtonEnabled": false,
+                "panControlEnabled": false,
+                "right": 38,
+                "bottom": 30,
+                "minZoomLevel": 0.25,
+                "gridHeight": 100,
+                "gridAlpha": 0.1,
+                "gridBackgroundAlpha": 0,
+                "gridColor": "#FFFFFF",
+                "draggerAlpha": 1,
+                "buttonCornerRadius": 2
+            }
+        });
+    </script>
+    <div id="map" style="width: 100%; height: 100%;"></div>
+</div>
+<div class="text-box css-typing f28 font-white tcenter">
+
+</div>
+<script src="./src/js/animation.js">
+
+</script>
+<script>
+    var str = 'Waterways is still main transportaion system for southern parts of Banladesh like Khulna, Barishal, Vhola etc.';
+    typeText(".css-typing", str);
+</script>
+</div>

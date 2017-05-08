@@ -1,0 +1,17 @@
+.smap{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    float: left;
+    z-index: 1;
+}
+
+.text-box{
+    height: 250px;
+    width: 30%;
+    top: 25%;
+    position: relative;
+    /*background: lightblue;*/
+    z-index: 5;
+    float: right;
+}

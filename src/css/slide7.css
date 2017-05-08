@@ -1,0 +1,13 @@
+.sl7-text-box{
+    position: relative;
+    float: right;
+    height: auto;
+    width: 40%;
+    padding-right: 2%;
+    padding-top: 2%;
+    /*background: red;*/
+    z-index: 1;
+}
+#chartdiv{
+    position:absolute;
+}

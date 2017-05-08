@@ -1,0 +1,67 @@
+.animate-zoom{
+   animation: animatezoom 2.0s;
+
+} @keyframes animatezoom{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+
+.animate-left{
+    position: relative;
+    animation: animateleft 1.5s;
+} @keyframes animateleft{
+    from{
+        left: -500px;
+        opacity: 0;
+    }
+    to{
+        left: 0;
+        opacity: 1;
+    }
+}
+
+.animate-right{
+    position: relative;
+    animation: animateright 1.5s;
+} @keyframes animateright{
+    from{
+        right: -500px;
+        opacity: 0;
+    }
+    to{
+        right: 0;
+        opacity: 1;
+    }
+}
+.image-zoom{
+    animation: zoom-img 3s;
+}
+@keyframes zoom-img{
+   0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.image-zoom-fast{
+    animation: zoom-img-fast 1s;
+}
+@keyframes zoom-img-fast{
+   0%{
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,233 @@
+<div class="left-container">
+    <script src="./src/js/slide5.js"></script>
+    <!-- amCharts javascript sources -->
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+
+    <!-- amCharts javascript code -->
+    <script type="text/javascript">
+        AmCharts.makeChart("chartdiv1",
+            {
+                "type": "serial",
+                "categoryField": "category",
+                "angle": 30,
+                "depth3D": 30,
+                "startDuration": 1,
+                "theme": "light",
+                "categoryAxis": {
+                    "gridPosition": "start",
+                    "title": "Years"
+                },
+                "trendLines": [],
+                "graphs": [
+                    {
+                        "balloonText": "[[title]] of [[category]]:[[value]]",
+                        "fillAlphas": 1,
+                        "id": "AmGraph-1",
+                        "title": "accidents",
+                        "type": "column",
+                        "valueField": "column-1"
+                    }
+                ],
+                "guides": [],
+                "valueAxes": [
+                    {
+                        "id": "ValueAxis-1",
+                        "stackType": "3d",
+                        "title": "No. of Accidents"
+                    }
+                ],
+                "allLabels": [],
+                "balloon": {},
+                "legend": {
+                    "enabled": true,
+                    "useGraphSettings": true
+                },
+                "titles": [
+                    {
+                        "id": "Title-1",
+                        "size": 15,
+                        "text": "Year-vs-Accident graph"
+                    }
+                ],
+                "dataProvider": [
+                    {
+                        "category": "2001",
+                        "column-1": "18"
+                    },
+                    {
+                        "category": "2002",
+                        "column-1": "18"
+                    },
+                    {
+                        "category": "2003",
+                        "column-1": "31"
+                    },
+                    {
+                        "category": "2004",
+                        "column-1": "42"
+                    },
+                    {
+                        "category": "2005",
+                        "column-1": "29"
+                    },
+                    {
+                        "category": "2006",
+                        "column-1": "23"
+                    },
+                    {
+                        "category": "2007",
+                        "column-1": "11"
+                    },
+                    {
+                        "category": "2008",
+                        "column-1": "22"
+                    },
+                    {
+                        "category": "2009",
+                        "column-1": "34"
+                    },
+                    {
+                        "category": "2010",
+                        "column-1": "30"
+                    },
+                    {
+                        "category": "2011",
+                        "column-1": "22"
+                    },
+                    {
+                        "category": "2012",
+                        "column-1": "16"
+                    },
+                    {
+                        "category": "2013",
+                        "column-1": "8"
+                    }
+                ]
+            }
+        );
+    </script>
+    <div id="chartdiv1" style="width: 90%; height: 40%; background-color: #FFFFFF;" class="animate-right"></div>
+
+    <!-- amCharts javascript code -->
+    <script type="text/javascript">
+        AmCharts.makeChart("chartdiv2",
+            {
+                "type": "serial",
+                "categoryField": "category",
+                "angle": 25,
+                "depth3D": 26,
+                "startDuration": 1,
+                "theme": "light",
+                "categoryAxis": {
+                    "gridPosition": "start",
+                    "title": "Years"
+                },
+                "trendLines": [],
+                "graphs": [
+                    {
+                        "balloonColor": "#000000",
+                        "balloonText": "[[title]] of [[category]]:[[value]]",
+                        "cornerRadiusTop": 11,
+                        "fillAlphas": 1,
+                        "fillColors": "#C27A7A",
+                        "id": "AmGraph-2",
+                        "lineThickness": 0,
+                        "title": "death",
+                        "type": "column",
+                        "valueField": "column-2"
+                    }
+                ],
+                "guides": [],
+                "valueAxes": [
+                    {
+                        "id": "ValueAxis-1",
+                        "stackType": "3d",
+                        "title": "No. of Death"
+                    }
+                ],
+                "allLabels": [],
+                "balloon": {},
+                "legend": {
+                    "enabled": true,
+                    "useGraphSettings": true
+                },
+                "titles": [
+                    {
+                        "id": "Title-1",
+                        "size": 15,
+                        "text": "Year-vs-Death graph"
+                    }
+                ],
+                "dataProvider": [
+                    {
+                        "category": "2001",
+                        "column-2": "30"
+                    },
+                    {
+                        "category": "2002",
+                        "column-2": "312"
+                    },
+                    {
+                        "category": "2003",
+                        "column-2": "453"
+                    },
+                    {
+                        "category": "2004",
+                        "column-2": "172"
+                    },
+                    {
+                        "category": "2005",
+                        "column-2": "234"
+                    },
+                    {
+                        "category": "2006",
+                        "column-2": "50"
+                    },
+                    {
+                        "category": "2007",
+                        "column-2": "8"
+                    },
+                    {
+                        "category": "2008",
+                        "column-2": "120"
+                    },
+                    {
+                        "category": "2009",
+                        "column-2": "260"
+                    },
+                    {
+                        "category": "2010",
+                        "column-2": "120"
+                    },
+                    {
+                        "category": "2011",
+                        "column-2": "90"
+                    },
+                    {
+                        "category": "2012",
+                        "column-2": "196"
+                    },
+                    {
+                        "category": "2013",
+                        "column-2": "10"
+                    }
+                ]
+            }
+        );
+    </script>
+    <div id="chartdiv2" style="width: 90%; height: 40%; background-color: #FFFFFF;" class="animate-right"></div>
+    <script>
+        addBars();
+    </script>
+</div>
+<div class="text-box css-typing f28 font-white tcenter">
+
+</div>
+<script src="./src/js/animation.js"></script>
+<script>
+        var str = 'On average more than 22 maritime accidents happens per year casusing more than 152 death.';
+        typeText(".css-typing", str);
+</script>
