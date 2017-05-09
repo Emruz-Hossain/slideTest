@@ -65,3 +65,14 @@
         transform: scale(1);
     }
 }
+.animate-from-right{
+    animation: from-right 2s;
+}
+@keyframes from-right{
+    from{
+        transform: translate(1400px,0px);
+    }
+    to{
+        transform: translate(0px,0px);
+    }
+}

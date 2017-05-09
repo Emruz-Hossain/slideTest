@@ -55,7 +55,12 @@
 .f36{
     font-size: 36pt;
 }
-
+.f54{
+    font-size: 54pt;
+}
+.f60{
+    font-size: 60pt;
+}
 .font-white{
     color: white;
 }

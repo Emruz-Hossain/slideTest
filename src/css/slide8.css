@@ -1,0 +1,122 @@
+.sl8-text-holder{
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    /*background: red;*/
+    left: 20%;
+    top: 45%;
+}
+.sl8-text2-holder{
+    width: 30%;
+    height: 20%;
+    left: 70%;
+    top: 10%;
+    position: absolute;
+    /*background: red;*/
+}
+.sl8-rvts-holder{
+    left: 40%;
+    top: 30%;
+    width: 170px;
+    height: 150px;
+    background-color: #74B9D1;
+    position: absolute;
+    border-radius: 50%;
+    display: none;
+}
+
+.sl8-overload-holder{
+    width: 150px;
+    height: 150px;
+    background: #74B9D1;
+    position: absolute;
+    left: 55%;
+    top: 6%;
+    display: none;
+
+}
+.sl8-weather-holder{
+    width: 150px;
+    height: 150px;
+    background: #74B9D1;
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    display: none;
+
+}
+.sl8-user-app-holder{
+    width: 150px;
+    height: 150px;
+    background: #74B9D1;
+    position: absolute;
+    left: 40%;
+    top: 68%;
+    display: none;
+
+}
+.sl8-rtm-holder{
+    width: 150px;
+    height: 150px;
+    background: #74B9D1;
+    position: absolute;
+    left: 18%;
+    top: 50%;
+    display: none;
+
+}
+.sl8-ldw-holder{
+    width: 150px;
+    height: 150px;
+    background: #74B9D1;
+    position: absolute;
+    left: 25%;
+    top: 6%;
+    display: none;
+
+}
+.line{
+    height: 2px;
+    background: white;
+    position: absolute;
+    z-index: -5;
+}
+.sl8-line1{
+    width: 15%;
+    top: 23%;
+    left: 47%;
+    transform: rotate(-35deg);
+    display: none;
+    
+}
+.sl8-line2{
+    width: 30%;
+    top: 55%;
+    left: 45%;
+    transform: rotate(20deg);
+    display: none;
+    
+}
+.sl8-line3{
+    width: 20%;
+    top: 65%;
+    left: 35%;
+    transform: rotate(-90deg);
+    display: none;
+}
+.sl8-line4{
+    width: 25%;
+    top: 50%;
+    left: 20%;
+    transform: rotate(-20deg);
+    display: none;
+    
+}
+.sl8-line5{
+    width: 23%;
+    top: 32%;
+    left: 30%;
+    transform: rotate(28deg);
+    display: none;
+    
+}

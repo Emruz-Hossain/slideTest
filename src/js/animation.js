@@ -24,4 +24,15 @@ $(spans).hide().appendTo(container).each(function (i) {
     }, 30);
 });
 }
-
+function typeTextTime(container, str,time)
+{
+var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
+$(spans).hide().appendTo(container).each(function (i) {
+    $(this).delay(time * i).css({
+        display: 'inline',
+        opacity: 0
+    }).animate({
+        opacity: 1
+    }, time);
+});
+}
