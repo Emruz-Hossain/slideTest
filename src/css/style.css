@@ -1,7 +1,7 @@
 html, body{
     height: 100%;
     margin: 0px;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 .template-container{
     height:100%;
@@ -9,5 +9,18 @@ html, body{
     width: 100%;
     background-color: rgba(71,85,94,1);
     position:relative;
-    z-index: 0;
+    z-index:-1000;
+}
+.start-button{
+    height: 30px;
+    width: 100px;
+    background: navy;
+    color:white;
+    border-radius: 30%;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+}
+.start-button:hover{
+    background: red;
 }

@@ -9,7 +9,7 @@ var accDetails = [
 var idx = 0;
 var idx2 = 0;
 function sl6addImage() {
-     $('.center-text').append("<p class=\"font-white f24\">Let's study some major maritime accident of Banglades.</p>");
+     $('.center-text').append("<p class=\"font-white f24\">Let's study some major maritime accidents of Bangladesh.</p>");
      setTimeout(function () {
          $('.center-text').css("animation", "zoom-out 1s");
          setTimeout(function () {
@@ -23,7 +23,7 @@ function sl6addImage() {
                     sl6addText();
                 },10);
                 idx++;
-            }, 6000 * i);
+            }, 9000 * i);
         }    
          }, 1000);
     },3000);
@@ -47,8 +47,8 @@ function sl6addText() {
             cls=cls+ap;
             var cls2 = ".sl6-text-box";
             cls2=cls2+ap;
-            console.log(cls);
-            console.log(cls2);
+            // console.log(cls);
+            // console.log(cls2);
             $('.sl6-text-holder').append("<p class=\""+cls+" sl6-text-box  font-white f18 tcenter\"></p>");
             typeTextFast(cls2, str[ap]);
             ap++;

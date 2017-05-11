@@ -1,0 +1,43 @@
+.cuet-logo{
+    position: absolute;
+    top: 80%;
+    left: 2%;
+    height: 120px;
+}
+.cuet-name{
+    position: absolute;
+    top: 92%;
+    left: 2%;
+}
+.authors-info-holder{
+    position: absolute;
+    width: 750px;
+    height: auto;
+    top: 10%;
+    left: 10%;
+    /*background: gray;*/
+}
+.authors-info-holder2{
+    position: absolute;
+    width: 750px;
+    height: auto;
+    top: 50%;
+    left: 40%;
+    /*background: gray;*/
+}
+
+.leftspan{
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+    top: 98px;
+    height: 180px;
+    /*background: red;*/
+}
+.rightspan{
+    position: absolute;
+    display: inline-block;
+    margin-left: 10px;
+    left: 20%;
+    /*background: blue;*/
+}

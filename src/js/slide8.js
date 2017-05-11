@@ -6,13 +6,13 @@ function sl8Start() {
         $('.sl8-text-holder').html("<h1 class=\"sl8-text font-white tcenter\"></h1>");
         var str = "Yes, we can.";
         typeTextTime(".sl8-text", str, 50);
-    }, 3000);
-    setTimeout(function () {
-        $('.sl8-text-holder').html("<h1 class=\"sl8-text font-white tcenter animate-zoom\">Welcome to Riverine Vehicle Tracking System</h1>");
     }, 5000);
     setTimeout(function () {
+        $('.sl8-text-holder').html("<h1 class=\"sl8-text font-white tcenter animate-zoom\">Welcome to Riverine Vehicle Tracking System</h1>");
+    }, 8000);
+    setTimeout(function () {
         sl8addItems();
-    }, 7000);
+    }, 13000);
 } 
 
 function sl8addItems() {

@@ -4,6 +4,7 @@
     position: absolute;
     float: left;
     z-index: 1;
+    /*background: red;*/
 }
 
 .text-box{
